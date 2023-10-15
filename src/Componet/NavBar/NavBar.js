@@ -1,32 +1,38 @@
 import React from 'react';
-import {Link}from 'react-router-dom'
 import './NavBar.css'
-import { faBars,faFacebook} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 const NavBar = () => {
     return (
-        <div className='Header'>
-            <div className="logo col-md-6" >
-                <h1>Mohammad Farhad Uddin</h1>
+      <div className="header">
 
-            </div>
-            <div className="navbar col-md-6">
-                <ul className='nav'>
-                    
-                    <li><Link to='/home'>Facebook</Link></li>
-                    <li><Link to='/home'>Twiter</Link></li>
-                    <li><Link to='/home'>Linkedin</Link></li>
-                    <li><Link to='/home'>GitHub</Link></li>
-                    <li><Link to='/home'>Youtube</Link></li>
-                    <li><Link to='/home'>Youtube</Link></li>
+       <div className="nav">
 
-                </ul>
-               
-            </div>
-            <FontAwesomeIcon className='icon' icon={faBars} />
-           
-          
-        </div>
+       <div className="logo col-md-5">
+
+        <h1>Md Farhad</h1>
+       </div>
+       <div className="navBar col-md-5">
+        <ul className='navBars'>
+           <li><a href="">github</a></li>
+           <li><a href="">facebook</a></li>
+           <li><a href="">twiter</a></li>
+           <li><a href="">whatsUp</a></li>
+           <li><a href="">Linkedin</a></li>
+        </ul>
+       </div>
+
+      
+       <div className="font">
+       <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
+
+
+
+       </div>
+       </div>
+
+      </div>
     );
 };
 
