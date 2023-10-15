@@ -1,9 +1,10 @@
 .Header{
     display: flex;
+   
     background-color: aquamarine;
 }
-.logo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.logo h1{
+    font-family:cursive;
 }
 .navbar ul{
   list-style: none;
@@ -13,15 +14,17 @@
 .navbar ul li{
     margin: 20px;
 }
-@media (max-width:600px) {
-    .Header{
-      
-        background-color: antiquewhite;
-    }
-    .nav{
-       display: none;
+@media screen and (max-width:600px) {
+    .navbar{
+       display: none; 
     }
     .nav1{
         display: block;
+       
     }
+    .logo h1{
+ font-size: small;
+ width: 100%;
+    }
+
 }

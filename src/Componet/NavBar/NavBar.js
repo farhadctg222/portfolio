@@ -18,11 +18,11 @@ const NavBar = () => {
                     <li><Link to='/home'>Linkedin</Link></li>
                     <li><Link to='/home'>GitHub</Link></li>
                     <li><Link to='/home'>Youtube</Link></li>
-                    <li className='nav1'><Link to='/icon'><FontAwesomeIcon className='icon' icon={faBars} /></Link></li>
 
                 </ul>
                
             </div>
+            <FontAwesomeIcon className='icon' icon={faBars} />
            
           
         </div>
