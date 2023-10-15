@@ -18,6 +18,7 @@ const NavBar = () => {
                     <li><Link to='/home'>Linkedin</Link></li>
                     <li><Link to='/home'>GitHub</Link></li>
                     <li><Link to='/home'>Youtube</Link></li>
+                    <li><Link to='/home'>Youtube</Link></li>
 
                 </ul>
                
