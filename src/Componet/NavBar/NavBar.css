@@ -49,7 +49,7 @@ button:hover{
             font-size: small;
         }
         h1{
-            font-size: medium;
+            font-size: 5px;
         }
         button{
             width: 80px;
@@ -63,8 +63,8 @@ button:hover{
        height: auto;
          }
          img{
-           max-width: 100%;
-            height: auto;
+            min-height: max-content;
+            height: 200px;
             display: block;
          }
 

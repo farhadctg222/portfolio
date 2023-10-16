@@ -12,7 +12,7 @@ const NavBar = () => {
         <button>Hire Me</button>
         </div>
 
-    <h1>hello </h1>
+   
       
       <div className="img-head col-md-6 col-sm-4 col-lg-6">
         <img src={image} alt="" />
