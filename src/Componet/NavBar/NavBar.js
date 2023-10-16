@@ -20,6 +20,7 @@ const NavBar = () => {
            <li><a href="">twiter</a></li>
            <li><a href="">whatsUp</a></li>
            <li><a href="">Linkedin</a></li>
+         <li><a href="">Youtube</a></li>
         </ul>
        </div>
 
