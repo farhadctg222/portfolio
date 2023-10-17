@@ -10,13 +10,15 @@ img{
 }
 .head{
     display: flex;
+    flex-wrap: wrap;
    
     border: 1px solid green;
-    flex-direction: column-reverse;
+    
     background-color: rgba(18, 129, 129,0.3);
 }
 .title{
     font-size: 100px;
+    background-color: rgba(39, 171, 171,0.3);
 }
 button{
     border-style: none;
@@ -24,4 +26,17 @@ button{
     height: 40px;
     background-color: black;
     color: white;
+}
+@media (min-width:350px)and (max-width:500px) {
+    .title{
+        color: blue;
+      font-size: 20px;
+    }
+    .head{
+        display: inline;
+        margin: auto;
+       
+        
+    }
+
 }
