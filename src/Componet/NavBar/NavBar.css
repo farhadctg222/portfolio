@@ -56,8 +56,9 @@ button:hover{
         h3{
             font-size: small;
         }
-        h1{
-            font-size: 200px;
+    .title{
+            width: 50%;
+            text-align: center;
         }
         button{
             width: 80px;
