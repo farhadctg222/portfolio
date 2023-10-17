@@ -48,8 +48,10 @@ button:hover{
         height: auto;
         text-align: justify;
         display: grid;
-        
-        
+         
+        }
+        button:hover{
+            width: fit-content;
         }
         h3{
             font-size: small;
