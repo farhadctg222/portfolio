@@ -17,6 +17,7 @@ const NavBar = () => {
       <div className="img-head col-md-6 col-sm-4 col-lg-6">
         <img src={image} alt="" />
       </div>
+      <h1>wel come my website</h1>
       
     </div>
   );
