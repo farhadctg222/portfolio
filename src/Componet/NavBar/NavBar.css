@@ -10,9 +10,9 @@ img{
 }
 .head{
     display: flex;
-    height: 500px;
+   
     border: 1px solid green;
-    overflow: hidden;
+    flex-direction: column-reverse;
     background-color: rgba(18, 129, 129,0.3);
 }
 .title{
