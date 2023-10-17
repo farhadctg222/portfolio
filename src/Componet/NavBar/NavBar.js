@@ -1,9 +1,14 @@
 import React from 'react';
 import './NavBar.css'
+import {Link}from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
+    const handle = ()=>{
+     const dd =    document.getElementById('navBar')
+     dd.innerHTML = `<h1>hellow world</h1>`
+    }
     return (
       <div className="header">
 
@@ -14,7 +19,7 @@ const NavBar = () => {
         <h1>Md Farhad</h1>
        </div>
        <div className="navBar col-md-5">
-        <ul className='navBars'>
+        <ul className='navBars' id='navBars'>
            <li><a href="">github</a></li>
            <li><a href="">facebook</a></li>
            <li><a href="">twiter</a></li>
@@ -25,7 +30,7 @@ const NavBar = () => {
 
       
        <div className="font">
-       <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
+       <Link to='/a' id='navBar'  onClick={handle}> <FontAwesomeIcon icon={faBars}></FontAwesomeIcon></Link>
 
 
 

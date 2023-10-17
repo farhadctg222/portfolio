@@ -23,4 +23,7 @@
         display: flex;
         margin: auto;
     }
+    .navBars li{
+        margin: 20px;
+    }
 }
