@@ -1,7 +1,17 @@
 
-h1{
+
+.profiles{
     text-align: center;
     background-color: antiquewhite;
     border-radius: 10px;
     color: red;
-}    
+    margin-top: 100px;
+} 
+
+ .HeadProfileDetails{
+    display: flex;
+ }
+ .imges img{
+    border-radius: 50%;
+    margin: 0 auto;
+ }
