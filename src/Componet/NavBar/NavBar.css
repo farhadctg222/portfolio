@@ -36,10 +36,12 @@ button{
         display: inline; 
     }
     .heading{
-        margin: auto;
+        margin: 10px;
+        width: auto;
     }
     .img-head{
         margin: auto;
+        width: auto;
     }
 
 }
