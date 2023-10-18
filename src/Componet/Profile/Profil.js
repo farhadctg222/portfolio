@@ -35,9 +35,9 @@ const Profil = () => {
         </div>
         <div className="profileDetails col-md-4 col-sm-5">
             <h1>Details</h1>
-             <h2>FullName: {details.fullName}</h2>
+             <h2><b>FullName:</b><br />{details.fullName}</h2>
              <h2>age: {details.age}</h2>
-             <h2>Social : <a href="">Facebook</a> <a href="">Github</a><a href="">Youtube</a></h2>
+             <h2 className='sosical'>Social : <a href="">Facebook</a> <a href="">Github</a><a href="">Youtube</a></h2>
         </div>
         </section>
         </div>

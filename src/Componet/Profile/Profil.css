@@ -12,6 +12,15 @@
     display: flex;
  }
  .imges img{
-    border-radius: 50%;
-    margin: 0 auto;
+    border-radius: 70%;
+    
+ }
+ .social{
+   font-size: 20px;
+ }
+ .imges{
+   margin: auto 0 ;
+ }
+ .HeadProfileDetails{
+   background-color: rgba(183, 112, 19,0.1);
  }
