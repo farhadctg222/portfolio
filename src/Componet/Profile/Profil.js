@@ -36,7 +36,7 @@ const Profil = () => {
             <h1>Details</h1>
              <h2><b>FullName:</b><br />{details.fullName}</h2>
              <h2>age: {details.age}</h2>
-             <h2 className='sosical'>Social : <a className='Subscribe' href="https://youtube.com/@farhadctg222?si=I0xNJS8cFD5HgLJI">Youtube</a> <a href="">Github</a><a href="">Youtube</a></h2>
+             <h2 className='sosical'>Social :<a href="" class="fa fa-facebook"></a><a href="https://youtube.com/@farhadctg222?si=I0xNJS8cFD5HgLJI" class="fa fa-youtube"></a><a href="#" class="fa fa-linkedin"></a><i class="fa fa-github"></i></h2>
         </div>
         </section>
         <h1 className='profiles'>Update Coming Sooon.....................</h1>
