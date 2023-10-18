@@ -24,3 +24,6 @@
  .HeadProfileDetails{
    background-color: rgba(183, 112, 19,0.1);
  }
+ .Profile-head{
+  margin-top: -50px;
+ }

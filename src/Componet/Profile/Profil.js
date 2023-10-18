@@ -1,6 +1,5 @@
 import React from 'react';
 import './Profil.css'
-import ProfileDetails from '../ProfileDetails/ProfileDetails';
 
 const Profil = () => {
     const aboute = {

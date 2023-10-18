@@ -11,8 +11,8 @@ img{
 .head{
     display: flex;
     flex-wrap: wrap;
-   
-    border: 1px solid green;
+     
+    
     
     background-color: rgba(18, 129, 129,0.3);
 }
@@ -40,7 +40,9 @@ img{
       font-size: 40px;
     }
     .head{
-        display: inline; 
+       
+       height: max-content;
+        
     }
     .heading{
         margin: 10px;
