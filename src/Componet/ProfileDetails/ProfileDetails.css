@@ -1,3 +1,7 @@
 .ProfileDetails{
     display: flex;
 }
+#propsTitle{
+    border-bottom: 10px solid red;
+
+}
