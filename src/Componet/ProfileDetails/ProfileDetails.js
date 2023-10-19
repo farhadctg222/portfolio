@@ -12,6 +12,7 @@ const ProfileDetails = () => {
         <div className='ProfileDetails'>
             <div className="propsTitle">
                 <h1 id='propsTitle'>{aboute.name}</h1>
+                <p>{aboute.detail}</p>
             </div>
           
             

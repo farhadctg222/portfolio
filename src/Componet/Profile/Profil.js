@@ -1,6 +1,6 @@
 import React from 'react';
 import './Profil.css'
-import ProfileDetails from '../ProfileDetails/ProfileDetails';
+import {Link}from 'react-router-dom'
 
 
 const Profil = () => {
@@ -38,9 +38,15 @@ const Profil = () => {
             <h1>Details</h1>
              <h2><b>FullName:</b><br />{details.fullName}</h2>
              <h2>age: {details.age}</h2>
-             <h2 className='sosical'>Social :<a href="" className="fa fa-facebook"></a><a href="https://youtube.com/@farhadctg222?si=I0xNJS8cFD5HgLJI" className="fa fa-youtube"></a><a href="#" className="fa fa-linkedin"></a><i className="fa fa-github"></i></h2>
+             <h2 className='sosical'>Social :<Link to="#"className="fa fa-facebook"></Link><Link to="https://youtube.com/@farhadctg222?si=I0xNJS8cFD5HgLJI" className="fa fa-youtube"></Link>
+      <Link to="#" className="fa fa-linkedin"></Link>
+      <Link to="#" className="fa fa-githu"></Link></h2>
         </div>
         </section>
+
+      
+
+
         <h1 className='profiles'>Update Coming Sooon.....................</h1>
        
         </div>
