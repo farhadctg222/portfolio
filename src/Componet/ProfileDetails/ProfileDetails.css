@@ -1,5 +1,6 @@
 .ProfileDetails{
     display: flex;
+    background-color: rgba(86, 169, 207,0.2);
 }
 #propsTitle{
     border-bottom: 10px solid red;

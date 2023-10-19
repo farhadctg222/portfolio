@@ -19,6 +19,29 @@ const Profil = () => {
         age: 23,
        
     }
+    const AddCourse = [{
+        CourseName: 'Web Design',
+        image: 'https://ibb.co/g6xLBB0',
+        priceName: 'Course fee',
+        curenci:'BD',
+        Price:9000},
+
+        {
+        CourseName: 'Web Devlopment',
+        image: 'https://ibb.co/cTMydXP',
+        priceName: 'Course fee',
+        curenci:'BD',
+        Price: 15000  
+        },
+
+        {
+        CourseName: 'Graphics Design',
+        image: 'https://ibb.co/VHMtXKL',
+        priceName: 'Course fee',
+        curenci:'BD',
+        Price: 5000  
+        }
+      ]
 
     return (
         <div className='Profile-head'>
@@ -47,7 +70,7 @@ const Profil = () => {
       
 
 
-        <h1 className='profiles'>Update Coming Sooon.....................</h1>
+        
        
         </div>
     );

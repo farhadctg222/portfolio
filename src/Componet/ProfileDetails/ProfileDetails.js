@@ -36,7 +36,7 @@ const ProfileDetails = () => {
                     </li>
                 </ol>
                 </ul>
-                <p style={justify}>Each of these four technologies plays an important role in providing an end-to-end framework for the developers. Even these four technologies play an important role in the development process of web applications.<br></br><br></br><br></br>Before MERN stack, it was earlier named as MEAN stack, MERN Stack is one of the variations of MEAN, here MEAN is also comprises of four components or say four different technologies, i.e., M is for MongoDB, ' E ' is for Express, ' A ' is for Angular.js, and ' N ' is for Node, here if you will observe, then you can identify that in MEAN, ' A ', i.e., Angular.js is replaced by ' R ', i.e., React.js in MERN, the main reason behind is - MERN Stack is mainly used for faster development of smaller applications as compared with MEAN, MEAN stack is a mainly better option for large-scale applications. Still, it takes more time for the development of smaller applications. They also both have different structures comparatively. </p>
+                <p style={justify}>Each of these four technologies plays an important role in providing an end-to-end framework for the developers. Even these four technologies play an important role in the development process of web applications.</p>
                
             </div>
           
