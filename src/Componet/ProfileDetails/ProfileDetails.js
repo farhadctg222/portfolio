@@ -32,7 +32,7 @@ const ProfileDetails = () => {
                
               
                     <li>
-                    <b>N</b> stands for js, mainly used for developing the premier JavaScript web server
+                    <b>N</b> stands for Node.js, mainly used for developing the premier JavaScript web server
                     </li>
                 </ol>
                 </ul>
