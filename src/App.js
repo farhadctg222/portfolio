@@ -8,7 +8,6 @@ function App() {
   return (
   <BrowserRouter>
   <Home></Home>
-  <Foter></Foter>
   <Routes>
    <Route></Route>
   </Routes>

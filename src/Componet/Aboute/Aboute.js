@@ -1,5 +1,6 @@
 import React from 'react';
 import Course from '../Course/Course';
+import './Aboute.css'
 
 const Aboute = () => {
     const AddCourse = [{
@@ -7,7 +8,8 @@ const Aboute = () => {
         image: 'https://i.ibb.co/c1SVkk2/1234.jpg',
         priceName: 'Course fee',
         curenci:'BD',
-        Price:9000},
+        Price:9000
+    },
 
         {
         CourseName: 'Web Devlopment',
@@ -26,7 +28,7 @@ const Aboute = () => {
         }
       ]
     return (
-        <div className='col-md-6 col-sm-6'style={{display:'flex'}}>
+        <div className='CourseDetails'>
             {
                 AddCourse.map(pd=><Course course={pd}key={pd.name}></Course>)
             }
