@@ -1,8 +1,35 @@
 import React from 'react';
+import Course from '../Course/Course';
 
 const Aboute = () => {
+    const AddCourse = [{
+        CourseName: 'Web Design',
+        image: 'https://i.ibb.co/c1SVkk2/1234.jpg',
+        priceName: 'Course fee',
+        curenci:'BD',
+        Price:9000},
+
+        {
+        CourseName: 'Web Devlopment',
+        image: 'https://i.ibb.co/VMMMFvJ/12345.jpg',
+        priceName: 'Course fee',
+        curenci:'BD',
+        Price: 15000  
+        },
+
+        {
+        CourseName: 'Graphics Design',
+        image: 'https://i.ibb.co/Ksj140t/123.jpg',
+        priceName: 'Course fee',
+        curenci:'BD',
+        Price: 5000  
+        }
+      ]
     return (
-        <div>
+        <div className='col-md-6 col-sm-6'style={{display:'flex'}}>
+            {
+                AddCourse.map(pd=><Course course={pd}key={pd.name}></Course>)
+            }
             
         </div>
     );

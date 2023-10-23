@@ -1,0 +1,12 @@
+.Corse-all{
+    width: 400px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.img-fluid{
+    display: inline block;
+    width: 200px;
+    height: 100px;
+    size: cover;
+}
