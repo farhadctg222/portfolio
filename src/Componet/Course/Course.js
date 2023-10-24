@@ -9,6 +9,7 @@ const Course = (props) => {
             <img src={image} className='img-fluid' alt="" />
             <h5>Price:{Price}</h5>
             <h5>{curenci}</h5>
+            <button className='btn-success'style={{width:'200px'}} >EnrolMent</button>
 
             
         </div>

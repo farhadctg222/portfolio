@@ -28,12 +28,17 @@ const Aboute = () => {
         }
       ]
     return (
+        <>
+            <h1 className='text-center'>Popular Course</h1>
+            <p style={{textAlign:'center'}}>We have designed our courses with the most demanding professional skills. The knowledge, experience, and expertise gained through the program will ensure your desired job in the global market. From the list below you can enroll to any online or offline courses at any time.</p>
+
         <div className='CourseDetails'>
             {
                 AddCourse.map(pd=><Course course={pd}key={pd.name}></Course>)
             }
             
         </div>
+        </>
     );
 };
 

@@ -1,5 +1,6 @@
 .CourseDetails{
     display: flex;
-    flex-direction: column-reverse;
+   
     margin: 5px;
+    flex-wrap: wrap;
 }
