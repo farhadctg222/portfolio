@@ -30,8 +30,10 @@
  .fa {
   padding: 20px;
   font-size: 30px;
-  width: 65px;
-  border-radius: 50%;
+  width: 60px;
+ 
+  object-fit: contain cover;
+  border-radius: 10px;
   text-decoration: none;
   margin-right: 10px;
   
