@@ -1,0 +1,37 @@
+/* Reset default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the menu bar */
+.menu-bar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the menu items */
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-bar li {
+    display: inline;
+}
+
+.menu-bar a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+.menu-bar a:hover {
+    background-color: #555;
+}
