@@ -11,7 +11,8 @@ const Course = (props) => {
             <h5>Price:{Price}</h5>
             <h5>{curenci}</h5>
             <button className='btn-success'style={{width:'200px'}} >Enrollment</button>
-            
+            <h1>hello</h1>
+
 
 
 
