@@ -56,6 +56,22 @@ img{
         flex-direction: column;
         flex-wrap: nowrap;
     }
+    .menu-bar{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
    
     
+}
+@media (min-width:601px)and (max-width:1500px) {
+       .menu-bar{
+        display: block;
+    }
+    .menubarsIcon{
+        display: none;
+    }
+    .mdfarhad{
+        display: none;
+    }
 }
