@@ -8,8 +8,8 @@ const Course = (props) => {
         <div className='Corse-all'>
           <Link> <h5 className='bg-danger'>{CourseName}</h5></Link> 
             <img src={image} className='img-fluid' alt="" />
-            <h5>Price:{Price}</h5>
-            <h5>{curenci}</h5>
+            <h5>Price:{Price} BD</h5>
+            
             <button className='btn-success'style={{width:'200px',border: 'none'}} >Enrollment</button>
         
 
