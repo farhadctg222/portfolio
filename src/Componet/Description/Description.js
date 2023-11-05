@@ -6,7 +6,7 @@ const Description = () => {
     const {detail}= useParams()
     return (
         <div>
-            <h1 className='detailsAll'>name{detail}</h1>
+            <h1 className='detailsAll'>{detail.toLowerCase()}</h1>
             
         </div>
     );
